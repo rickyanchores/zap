@@ -26,7 +26,7 @@ const Nav = () => {
             {navList.map((link) => {
                 return(
                     <li>
-                        <Link to={link.path}>{link.name}</Link>
+                        <Link className='link' to={link.path}>{link.name}</Link>
                     </li>
                 )
             })}

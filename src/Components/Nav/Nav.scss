@@ -1,3 +1,18 @@
 .Nav{
-    border: 5px solid black;
+    //border: 2px solid black;
+    //border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .NavLinks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 40%;
+        list-style: none;
+        .link{
+            text-decoration: none;
+            color: black;
+        }
+    }
 }
